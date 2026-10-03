@@ -7,6 +7,10 @@
 [![Backend](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python-green.svg)](#)
 [![Frontend](https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JS-yellow.svg)](#)
 
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/fitbuddy_landing_page.png" alt="FitBuddy Landing Page" width="850"/>
+</p>
+
 ---
 
 ## 📌 Executive Overview
@@ -78,6 +82,28 @@ FitBuddy--AI-Fitness-Plan-Generator-using-Gemini-Models-Documents/
 │   └── 📄 Final Report.pdf
 │
 └── 📁 8. Project Demonstration/                      # Demonstration assets and presentation space
+    └── 📁 images/                                    # High-resolution original demonstration captures
+        ├── admin_dashboard.png
+        ├── api_plan_generate_test.png
+        ├── brainstorm_group_ideas.png
+        ├── brainstorming_prioritization.png
+        ├── burndown_chart.png
+        ├── customer_problem_statement.png
+        ├── data_flow_diagram.png
+        ├── data_flow_diagram_level_0.jpg
+        ├── data_flow_diagram_level_1.jpg
+        ├── empathy_map_canvas.png
+        ├── fastapi_swagger_docs.png
+        ├── feedback_update_plan.png
+        ├── fitbuddy_landing_page.png
+        ├── fitness_input_page.png
+        ├── generated_workout_plan.png
+        ├── goal_intensity_selection.png
+        ├── idea_prioritization_grid.png
+        ├── nutrition_guidance.png
+        ├── problem_solution_fit_canvas.png
+        ├── solution_architecture.png
+        └── workout_history.png
 ```
 
 ---
@@ -90,10 +116,37 @@ Focuses on understanding user challenges, establishing design thinking principle
 - **Brainstorming- Idea Generation- Prioritizaation.pdf**
   - Documents creative ideation sessions covering feature categories: *AI Fitness Planning*, *Nutrition & Recovery*, *Progress & Personalization*, *User Engagement*, and *Administration*.
   - Maps ideas along feasibility vs. impact matrices to define MVP requirements.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/brainstorming_prioritization.png" alt="Brainstorming & Idea Prioritization" width="650"/>
+  <br><em>Figure 1.1: Brainstorming & Idea Prioritization Overview</em>
+</p>
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/brainstorm_group_ideas.png" alt="Brainstorm & Group Ideas" width="650"/>
+  <br><em>Figure 1.2: Brainstorming Ideation Board & Feature Clustering</em>
+</p>
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/idea_prioritization_grid.png" alt="Prioritization Grid" width="550"/>
+  <br><em>Figure 1.3: Feature Importance vs. Feasibility Matrix</em>
+</p>
+
 - **Define Problem Statements.pdf**
   - Identifies core user dilemmas: lack of structured fitness guidance, high cost of personal trainers, rigid generic plans, and lack of dynamic adjustments based on personal feedback.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/customer_problem_statement.png" alt="Customer Problem Statement" width="700"/>
+  <br><em>Figure 1.4: Customer Problem Statement Framework</em>
+</p>
+
 - **Empathy Map Canvas.pdf**
   - Deep dive into target persona experiences: *Says & Does*, *Thinks & Feels*, *Hears*, *Sees*, *Pain Points* (information overload, injury anxiety, inconsistency), and *Expected Gains* (customized 7-day routine, simple nutrition, actionable feedback loops).
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/empathy_map_canvas.png" alt="FitBuddy Empathy Map Canvas" width="650"/>
+  <br><em>Figure 1.5: FitBuddy Persona Empathy Map Canvas</em>
+</p>
 
 ---
 
@@ -103,6 +156,22 @@ Translates user needs into technical specifications, flow diagrams, and architec
 - **Data Flow Diagrams and User Stories.pdf**
   - Defines the flow of data between the user browser, FastAPI web services, Google Gemini AI API endpoints, and SQLite storage.
   - Outlines key user stories (`USN-1` through `USN-7`) with acceptance criteria.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/data_flow_diagram.png" alt="FitBuddy Data Flow Diagram" width="700"/>
+  <br><em>Figure 2.1: FitBuddy System Data Flow Diagram (DFD)</em>
+</p>
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/data_flow_diagram_level_0.jpg" alt="DFD Level 0" width="600"/>
+  <br><em>Figure 2.2: Context Data Flow Diagram (DFD Level 0)</em>
+</p>
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/data_flow_diagram_level_1.jpg" alt="DFD Level 1" width="550"/>
+  <br><em>Figure 2.3: Detailed Data Flow Diagram (DFD Level 1)</em>
+</p>
+
 - **Solution Requirements.pdf**
   - **Functional Requirements (FR-1 to FR-6)**: User profile onboarding, 7-day workout plan generation, nutrition & recovery synthesis, feedback-driven routine updates, workout history archives, and admin management.
   - **Non-Functional Requirements (NFR-1 to NFR-6)**: High usability, credential security, robust validation, sub-second to low-latency API handling, server reliability, and vertical/horizontal scalability.
@@ -120,10 +189,21 @@ Covers the architectural blueprints, schema layouts, and problem-solution valida
 
 - **Problem - Solution Fit file / Problem - Solution Fit.pdf**
   - Structured canvas validating customer segments (students, busy professionals, beginners), customer constraints, triggers, existing alternatives, and why FitBuddy provides superior value.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/problem_solution_fit_canvas.png" alt="Problem - Solution Fit Canvas" width="700"/>
+  <br><em>Figure 3.1: FitBuddy Problem-Solution Fit Canvas</em>
+</p>
+
 - **Proposed Solution / Proposed Solution.pdf**
   - Comprehensive solution description: interactive user input form, algorithmic prompt constructor, AI streaming/response parser, and feedback iteration mechanism.
 - **Solution Architecture / Solution Architecture.pdf**
   - Architectural diagrams illustrating component boundaries, API request/response lifecycles, and database relationship models.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/solution_architecture.png" alt="FitBuddy Solution Architecture" width="700"/>
+  <br><em>Figure 3.2: FitBuddy Tiered Solution Architecture</em>
+</p>
 
 ---
 
@@ -137,6 +217,11 @@ Outlines the Agile methodology, backlog management, sprint execution, and team v
     - **Sprint 1 (13 Story Points)**: Profile inputs, AI prompt generation, nutrition & recovery modules, feedback adaptation.
     - **Sprint 2 (7 Story Points)**: Workout plan history, admin dashboards, database persistence, and optimization.
   - Sprint schedule tracker, sprint velocity ($20 / 2 = 10$ points/sprint), and burndown chart metrics.
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/burndown_chart.png" alt="FitBuddy Burndown Chart" width="600"/>
+  <br><em>Figure 4.1: FitBuddy Agile Sprint Burndown Chart</em>
+</p>
 
 ---
 
@@ -162,6 +247,16 @@ Systematic functional, load, and integration testing documentation.
     - Gemini API connection and failure handling
     - Response latency benchmarks and SQLite read/write verification
 
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/fastapi_swagger_docs.png" alt="FastAPI Swagger UI" width="750"/>
+  <br><em>Figure 6.1: FastAPI Interactive API Documentation & Endpoint Suite (/api/docs)</em>
+</p>
+
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/api_plan_generate_test.png" alt="API Plan Generate Test" width="750"/>
+  <br><em>Figure 6.2: REST Client Execution & Payload Response Validation for Plan Generation</em>
+</p>
+
 ---
 
 ### 7️⃣ Phase 7: Project Documentation
@@ -175,16 +270,70 @@ Consolidated master project deliverable.
     - Data flow diagrams (DFD) and system architecture
     - Sprint trackers, velocity calculations, and burndown chart
     - Complete functional & performance test logs with 100% pass rates
-    - Full application screenshots (Landing page, input controls, 7-day plan views, nutrition guide, feedback loops, history, and admin panel)
-    - In-depth analysis of advantages, constraints, future scope, and health disclaimers
+    - Full application screenshots, advantage analysis, future scope, and health disclaimers
 
 ---
 
 ### 8️⃣ Phase 8: Project Demonstration
-Reserved directory for demonstration assets and deliverables.
+Workspace containing all high-resolution screen captures and architectural diagrams showcasing the working FitBuddy platform.
 
-- **Folder Path**: `8. Project Demonstration/`
-  - Workspace designated for live demo video recordings, project presentation slides (`.pptx`/`.pdf`), and walkthrough documentation for evaluators.
+- **Folder Path**: `8. Project Demonstration/images/`
+  - High-resolution presentation-ready screenshots covering every system interface, API test run, and design canvas.
+
+---
+
+## 🖥️ Application Interface & UI Showcase
+
+The following screenshots demonstrate the user experience and key workflows of the working FitBuddy application:
+
+### 1. User Profile & Fitness Metric Input
+Users input their personal demographics, weight, age, and baseline metrics to establish an accurate physical profile.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/fitness_input_page.png" alt="Fitness Information Input Page" width="750"/>
+  <br><em>Figure 7.1: Fitness Information & Physical Metric Input Interface</em>
+</p>
+
+### 2. Goal & Intensity Selection
+Interactive controls to specify primary fitness objectives (Fat Loss, Muscle Gain, Strength, Endurance, Mobility), equipment availability, and workout intensity.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/goal_intensity_selection.png" alt="Goal and Intensity Selection" width="750"/>
+  <br><em>Figure 7.2: Primary Fitness Objective & Intensity Calibration</em>
+</p>
+
+### 3. AI-Generated 7-Day Performance Blueprint
+Comprehensive 7-day structured protocol tailored by Gemini AI with exercise routines, sets, reps, and rest intervals.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/generated_workout_plan.png" alt="Generated 7-Day Workout Plan" width="750"/>
+  <br><em>Figure 7.3: Personalized 7-Day Workout Routine</em>
+</p>
+
+### 4. Nutrition Targets & Fuel Guidance
+Automated breakdown of caloric targets and macronutrient distributions (protein, carbohydrates, fats) alongside meal suggestions and hydration guidelines.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/nutrition_guidance.png" alt="Nutrition Guidance" width="750"/>
+  <br><em>Figure 7.4: Daily Nutrition Targets & Fuel Guidance</em>
+</p>
+
+### 5. Interactive Plan Adaptation & Feedback
+Allows users to enter natural language feedback to dynamically adjust workout parameters, exercise selection, or intensity on the fly.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/feedback_update_plan.png" alt="Feedback and Updated Plan" width="750"/>
+  <br><em>Figure 7.5: Fine-Tuning & Dynamic Feedback Routine Adaptation</em>
+</p>
+
+### 6. Workout History & Saved Protocols
+Enables users to review, load, and manage previously generated workout protocols stored in the database.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/workout_history.png" alt="Workout History" width="750"/>
+  <br><em>Figure 7.6: Workout History & Saved Blueprint Archive</em>
+</p>
+
+### 7. Administrative Oversight Dashboard
+Centralized administrator interface for monitoring registered users, generated plans, and platform utilization.
+<p align="center">
+  <img src="8.%20Project%20Demonstration/images/admin_dashboard.png" alt="Admin Dashboard" width="750"/>
+  <br><em>Figure 7.7: Administrative User and Plan Management Dashboard</em>
+</p>
 
 ---
 
@@ -241,7 +390,7 @@ flowchart TD
 | **5** | `5. Project Development Phase/User Acceptance Testing/` | `UAT Report.pdf` | PDF | User acceptance evaluation, feedback logs, and satisfaction |
 | **6** | `6.Project Testing/` | `Performance Testing.pdf` | PDF | System-wide test suite logs (`FT-01` to `FT-06`, `PT-01` to `PT-03`) |
 | **7** | `7. Project Documentation/` | `Final Report.pdf` | PDF | Complete consolidated 16-page master project report |
-| **8** | `8. Project Demonstration/` | *(Directory)* | — | Presentation slides and video demonstration repository |
+| **8** | `8. Project Demonstration/images/` | *(19 Screen Captures)* | PNG / JPG | Full-resolution demonstration UI, API test runs & diagrams |
 
 ---
 
